@@ -118,38 +118,22 @@ function versionthree(post) {
 
         <img src="${post.articleImage}" alt="${post.title}" class = "article-image">
 
-        <div class="version-three-overlay">
-
-            <div class="post-top-row">
-
-                <div class="post-categories">${containerHTML}</div>
-
+        <div class="post-content">
             <div class="post-author">
                 <img src="${post.author.image}" alt="Profile Pic" class="profile-image">
-
-            <div class="author-info">
-                <p class="author-name">${post.author.name}</p>
-                <p class="author-username">${post.author.username}</p>
-            </div>
-
-            <p class="post-date">${post.postedDate}</p>
-            </div>
-        </div>
-
-        <div class="post-glass-content">
-
-            <h2 class="post-title">${post.title}</h2>
-
-            <p class="post-message">${post.message}</p>
-
-            <div class="post-bottom-row">
-            
-                <div class="post-engagement">
-                    <p>❤️ <strong>${post.likes}</strong> likes</p>
-                    <p>👁️ <strong>${post.views}</strong> views</p>
-                    <p>💬 <strong>${post.replies}</strong> replies</p>
+                <div class="author-info">
+                    <p class="author-name">${post.author.name}</p>
+                    <p class="author-username">${post.author.username}</p>
                 </div>
+                <p class="post-date">${post.postedDate}</p>
             </div>
+            <h2 class="post-title">${post.title}</h2>
+            <p class="post-message">${post.message}</p>
+            <div class="post-categories">${containerHTML}</div>
+            <div class="post-engagement">
+                <p>❤️ <strong>${post.likes}</strong> likes</p>
+                <p>👁️ <strong>${post.views}</strong> views</p>
+                <p>💬 <strong>${post.replies}</strong> replies</p>
             </div>
         </div>
     </article>
