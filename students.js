@@ -37,7 +37,7 @@ function versionone (post){
 
 for (let i = 0; i < discussionPosts.length; i++){
     let post = discussionPosts[i];
-    if( i % 3 === 0 ){
+    {
         section.innerHTML += versionone(post)
     }
 } */
@@ -98,7 +98,7 @@ function versiontwo(post) {
 
 for (let i = 0; i < discussionPosts.length; i++) {
   let post = discussionPosts[i];
-  if (i % 3 === 0) {
+  {
     section.innerHTML += versiontwo(post);
   }
 } */
@@ -143,7 +143,7 @@ function versionthree(post) {
 
 for (let i = 0; i < discussionPosts.length; i++) {
   let post = discussionPosts[i];
-  if (i % 3 === 0) {
+   {
     section.innerHTML += versionthree(post);
   }
 }
